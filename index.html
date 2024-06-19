@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Time Table</title>
+    <style>
+      body {
+        font-family: "Inter";
+        margin: 0;
+        padding: 0;
+        border: solid 15px #087f5b;
+      }
+
+      h1 {
+        text-align: center;
+        color: #343a40;
+        font-size: 20px;
+      }
+
+      table {
+        border-collapse: collapse;
+        margin: 20px auto;
+        background-color: #fff;
+        border: 2px solid #dee2e6;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border-style: solid;
+        border-color: #087f5b;
+        border-width: 20px;
+        border-radius: 30px;
+        border-collapse: separate;
+      }
+
+      th,
+      td {
+        border: 1px solid #dee2e6;
+        padding: 10px;
+        text-align: center;
+      }
+
+      th {
+        background-color: #f2f2f2;
+        color: #343a40;
+      }
+
+      .highlight {
+        background-color: #f8f9fa;
+      }
+
+      .special {
+        background-color: #f0f0f0;
+      }
+
+      .img {
+        /* border-radius: 10px; */
+      }
+
+      .school-name {
+        text-align: right;
+        color: #343a40;
+        font-size: 30px;
+        font-weight: 900;
+      }
+
+      .developer {
+        text-align: right;
+        /* padding-right: 100px; */
+        padding-top: 50px;
+        color: #343a40;
+        font-size: 16px;
+        font-weight: 900;
+        text-align: center;
+      }
+
+      .time-table-header {
+        text-align: center;
+        padding-top: 50px;
+        font-size: 24px;
+        font-weight: 900;
+      }
+    </style>
+  </head>
+  <img
+    src="image.png"
+    alt="School image"
+    align="left"
+    class="img"
+    width="500"
+    height="200"
+  />
+  <body style="background-color: lightgray">
+    <h2 class="school-name">
+      S.T JOSPEH'S HIGH SCHOOL POOVATHUSSERY<br />
+      Parakkadavu P.O, Eranakulam Dist.,<br />
+      Ph: 0484-2471060
+    </h2>
+
+    <h1 class="time-table-header">TIME TABLE CLASS 9B</h1>
+    <table>
+      <tr>
+        <th>Day/Period</th>
+        <th>I</th>
+        <th>II</th>
+        <th>III</th>
+        <th>IV</th>
+        <th>V</th>
+        <th>VI</th>
+        <th>VII</th>
+        <th>VIII</th>
+      </tr>
+      <tr>
+        <td class="highlight"><b>Monday</b></td>
+        <td>Maths</td>
+        <td>Hist</td>
+        <td>Eng</td>
+        <td>Hindi</td>
+        <td>P.E</td>
+        <td>Mal I</td>
+        <td>Phy</td>
+        <td>I.T</td>
+      </tr>
+      <tr>
+        <td class="highlight"><b>Tuesday</b></td>
+        <td>Bio</td>
+        <td>W.E</td>
+        <td>Mal I</td>
+        <td colspan="2" class="special">IT Lab</td>
+        <td>Chem</td>
+        <td>Eng</td>
+        <td>Maths</td>
+      </tr>
+      <tr>
+        <td class="highlight"><b>Wednesday</b></td>
+        <td>Maths</td>
+        <td>Hist</td>
+        <td>M.S</td>
+        <td>Geo</td>
+        <td>P.E</td>
+        <td>Mal I</td>
+        <td>Eng</td>
+        <td>I.T</td>
+      </tr>
+      <tr>
+        <td class="highlight"><b>Thursday</b></td>
+        <td>Chem</td>
+        <td>Phy</td>
+        <td>M.S</td>
+        <td>Maths</td>
+        <td>Bio</td>
+        <td>Eng</td>
+        <td>Hindi</td>
+        <td>Mal I</td>
+      </tr>
+      <tr>
+        <td class="highlight"><b>Friday</b></td>
+        <td>Maths</td>
+        <td>Music</td>
+        <td>Hist</td>
+        <td>Hindi</td>
+        <td>Mal I</td>
+        <td>Eng</td>
+        <td>Mal II</td>
+        <td>Geo</td>
+      </tr>
+    </table>
+    <p class="developer">Developed by Raees</p>
+  </body>
+</html>
